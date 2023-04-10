@@ -1,4 +1,4 @@
-from tello_single import Tello
+from tello import Tello
 import sys
 from datetime import datetime
 import time
