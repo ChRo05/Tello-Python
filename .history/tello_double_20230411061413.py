@@ -3,8 +3,8 @@
 import socket
 import time
 
-drone1 = '192.168.10.1'
-drone2 = '192.168.10.2'
+drone1 = '192.168.10.2'
+drone2 = '192.168.10.1'
 
 tello_port = 8889
 
