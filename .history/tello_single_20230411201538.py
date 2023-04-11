@@ -51,6 +51,6 @@ time.sleep(3)
 socket.sendto('flip b'.encode('utf-8'),tello_address)
 time.sleep(3)
 
-# 着陸
+
 socket.sendto('land'.encode('utf-8'),tello_address)
 print ('land')

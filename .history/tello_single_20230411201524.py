@@ -46,11 +46,8 @@ time.sleep(3)
 # 前方宙返り
 socket.sendto('flip f'.encode('utf-8'),tello_address)
 time.sleep(3)
-
-# 後方宙返り
 socket.sendto('flip b'.encode('utf-8'),tello_address)
 time.sleep(3)
 
-# 着陸
 socket.sendto('land'.encode('utf-8'),tello_address)
 print ('land')
