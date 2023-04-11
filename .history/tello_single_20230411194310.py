@@ -15,15 +15,10 @@ socket.sendto('takeoff'.encode('utf-8'),tello_address)
 print ('takeoff')
 
 time.sleep(3)
-# socket.sendto('left 50'.encode('utf-8'),tello_address)
-# time.sleep(3)
-socket.sendto('forward 500'.encode('utf-8'),tello_address)
+socket.sendto('left 50'.encode('utf-8'),tello_address)
 time.sleep(3)
 socket.sendto('forward 500'.encode('utf-8'),tello_address)
 time.sleep(3)
-socket.sendto('forward 500'.encode('utf-8'),tello_address)
-time.sleep(3)
-
 
 socket.sendto('flip l'.encode('utf-8'),tello_address)
 time.sleep(3)

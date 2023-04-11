@@ -21,8 +21,7 @@ socket.sendto('forward 500'.encode('utf-8'),tello_address)
 time.sleep(3)
 socket.sendto('forward 500'.encode('utf-8'),tello_address)
 time.sleep(3)
-socket.sendto('forward 500'.encode('utf-8'),tello_address)
-time.sleep(3)
+
 
 
 socket.sendto('flip l'.encode('utf-8'),tello_address)
